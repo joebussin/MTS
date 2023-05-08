@@ -18,18 +18,22 @@ app.get('/authorize', (req, res) => {
 })
 
 app.get('/support', (req, res) => {
+	//place your support redirect link here
   res.send('')
 })
 
 app.get('/privacy', (req, res) => {
+	//place your privacy policy redirect link here
   res.send(' ')
 })
 
 app.get('/terms', (req, res) => {
+	//place your terms and conditions link here
   res.send('')
 })
 
 app.get('/documentation', (req, res) => {
+	//place your documentation link here
   res.send('')
 })
 
