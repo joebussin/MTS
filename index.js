@@ -34,7 +34,7 @@ app.get('/terms', (req, res) => {
 
 app.get('/documentation', (req, res) => {
 	//place your documentation link here
-  res.send('')
+  res.send('https://docs.google.com/document/d/1nDAq-uoFABZ9rnfFY6OQqAzqLWRVO_NFsWm6192GxmQ/edit?usp=sharing')
 })
 
 app.get('/zoomverify/verifyzoom.html', (req, res) => {
