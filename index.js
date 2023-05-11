@@ -24,12 +24,12 @@ app.get('/support', (req, res) => {
 
 app.get('/privacy', (req, res) => {
 	//place your privacy policy redirect link here
-  res.send(' ')
+  res.send('https://docs.google.com/document/d/1JYSa-DmVWtYDBh-pJPranxj8pmbqmlyGOBRTjV06cqE/edit?usp=sharing ')
 })
 
 app.get('/terms', (req, res) => {
 	//place your terms and conditions link here
-  res.send('')
+  res.send('https://docs.google.com/document/d/1JYSa-DmVWtYDBh-pJPranxj8pmbqmlyGOBRTjV06cqE/edit?usp=sharing')
 })
 
 app.get('/documentation', (req, res) => {
