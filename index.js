@@ -24,17 +24,17 @@ app.get('/support', (req, res) => {
 
 app.get('/privacy', (req, res) => {
 	//place your privacy policy redirect link here
-  res.send('https://docs.google.com/document/d/1JYSa-DmVWtYDBh-pJPranxj8pmbqmlyGOBRTjV06cqE/edit?usp=sharing ')
+  res.redirect('https://docs.google.com/document/d/1JYSa-DmVWtYDBh-pJPranxj8pmbqmlyGOBRTjV06cqE/edit?usp=sharing ')
 })
 
 app.get('/terms', (req, res) => {
 	//place your terms and conditions link here
-  res.send('https://docs.google.com/document/d/1JYSa-DmVWtYDBh-pJPranxj8pmbqmlyGOBRTjV06cqE/edit?usp=sharing')
+  res.redirect('https://docs.google.com/document/d/1JYSa-DmVWtYDBh-pJPranxj8pmbqmlyGOBRTjV06cqE/edit?usp=sharing')
 })
 
 app.get('/documentation', (req, res) => {
 	//place your documentation link here
-  res.send('https://docs.google.com/document/d/1nDAq-uoFABZ9rnfFY6OQqAzqLWRVO_NFsWm6192GxmQ/edit?usp=sharing')
+  res.redirect('https://docs.google.com/document/d/1nDAq-uoFABZ9rnfFY6OQqAzqLWRVO_NFsWm6192GxmQ/edit?usp=sharing')
 })
 
 app.get('/zoomverify/verifyzoom.html', (req, res) => {
